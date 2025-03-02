@@ -367,7 +367,7 @@ function App() {
               .slice(3, 5)
               .map((product, index) => (
                 <ProductCard key={index} onClick={() => handleProductClick(product)}>
-                  <img src={`/src/images/${product.name}.jpeg`} alt={product.name} />
+                  <img src={`./src/images/${product.name}.jpeg`} alt={product.name} />
                   <div className="content">
                     <h3>{product.name}</h3>
                     <p>{product.description}</p>

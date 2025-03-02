@@ -129,7 +129,7 @@ const ProductPage = ({ product, theme, onBack }) => {
       <ProductContent>
         <ImageGallery>
           <img
-            src={`/src/images/${product.name} 2.jpeg`}
+            src={`./src/images/${product.name} 2.jpeg`}
             alt={product.name}
           />
         </ImageGallery>

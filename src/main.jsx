@@ -18,8 +18,8 @@ const GlobalStyle = createGlobalStyle`
 `
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <GlobalStyle />
-    <App />
-  </React.StrictMode>
+  React.createElement(React.StrictMode, null,
+    React.createElement(GlobalStyle, null),
+    React.createElement(App, null)
+  )
 )
