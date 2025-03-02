@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://hrishikesh6187.github.io/PureSip",
+  "homepage": "https://hrishikesh6187.github.io/PureSip/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

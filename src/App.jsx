@@ -317,7 +317,7 @@ function App() {
     <div>
       <Header>
         <Logo>
-          <img src="./src/images/Logo.png" alt="PureSip Logo" />
+          <img src="/src/images/Logo.png" alt="PureSip Logo" />
           PureSip
         </Logo>
         <Nav>
@@ -352,7 +352,7 @@ function App() {
               .slice(0, 3)
               .map((product, index) => (
             <ProductCard key={index} onClick={() => handleProductClick(product)}>
-              <img src={`./src/images/${product.name}.jpeg`} alt={product.name} />
+              <img src={`/src/images/${product.name}.jpeg`} alt={product.name} />
               <div className="content">
                 <h3>{product.name}</h3>
                 <p>{product.description}</p>
@@ -367,7 +367,7 @@ function App() {
               .slice(3, 5)
               .map((product, index) => (
                 <ProductCard key={index} onClick={() => handleProductClick(product)}>
-                  <img src={`./src/images/${product.name}.jpeg`} alt={product.name} />
+                  <img src={`/src/images/${product.name}.jpeg`} alt={product.name} />
                   <div className="content">
                     <h3>{product.name}</h3>
                     <p>{product.description}</p>
@@ -395,7 +395,7 @@ function App() {
             </p>
           </div>
           <div className="mission-image">
-            <img src="./src/images/Eco Warrior.jpeg" alt="PureSip Eco Warrior Bottle" />
+            <img src="src/images/Eco Warrior.jpeg" alt="PureSip Eco Warrior Bottle" />
           </div>
         </div>
       </MissionSection>
