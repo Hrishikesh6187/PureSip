@@ -335,7 +335,7 @@ function App() {
             <img src="./src/images/Main.JPG" alt="PureSip Water Bottle" />
           </div>
           <div className="hero-content">
-            <h1>Sustainably crafted, straight to your door</h1>
+            <h1>Hrishikesh Prahalad</h1>
             <p>At PureSip, we're dedicated to sustainability in every sip. Premium aluminum bottles, designed for those who care about both performance and the planet.</p>
             <a href="#products" className="shop-button">Shop Now</a>
           </div>
